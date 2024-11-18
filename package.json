@@ -1,0 +1,15 @@
+{
+  "name": "web-usage",
+  "description": "DeviceAtlas Cloud device detection cli example",
+  "private": true,
+  "author": "DeviceAtlas Limited",
+  "licence": "COPYRIGHT_PLACEHOLDER",
+  "main": "web-usage.js",
+  "dependencies": {
+    "deviceatlas-cloud-nodejs": "file:../../API/deviceatlas-cloud-nodejs-2.0.1.tgz",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node web-usage.js"
+  }
+}
